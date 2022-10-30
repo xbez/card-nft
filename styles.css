@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:hsl(217, 54%, 11%) ;
+    color: white;
+    width:100%;
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+
+}
+.card{
+    background-color:hsl(216, 50%, 16%) ;
+    border-radius: 15px;
+    width: 275px;
+    padding: 1.5rem;
+}
+.image-nft{
+    position: relative;
+   
+}
+.image-nft div{
+    position: absolute;
+    background-color:hsl(178, 100%, 50%,40%);
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.image-nft div:hover{
+    cursor: pointer;
+border-radius: 17px;
+    opacity: 1;
+
+}
+.image-nft div img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+
+
+}
+
+.main-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+h3{
+    margin-top: 1.5rem;
+    font-size:20px ;
+    font-weight:600 ;
+    color: white;
+}
+.desc{
+    color:hsl(215, 51%, 70%) ;
+    margin:0.6rem 0 1rem 0;
+    list-style: 20px;
+    font-weight:300 ;
+
+}
+.price-days{
+    display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid hsl(215, 51%, 70%)  ;
+   margin-bottom: 1rem;
+   padding-bottom:1rem ;
+}
+.price{
+    display: flex;
+    align-items: center;
+    color:hsl(178, 100%, 50%);
+   letter-spacing:1px;
+   font-size: 14px;
+}
+.price img{
+    margin-right:5px ;
+
+}
+
+.days{
+    display: flex;
+    align-items: center; 
+   
+   font-size: 14px;
+
+}
+.days img{margin-right:6px ;
+}
+.createur{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: hsl(215, 51%, 70%) ;
+    
+
+}
+.createur-img{
+    width: 30px;
+    margin-right:15px ;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+span{
+    color: white;
+    margin-left: 5px;
+}
+
+.main-img,h3,span{
+    cursor: pointer;
+}
+
+span:hover,h3:hover{
+  color:hsl(178, 100%, 50%)
+}
